@@ -10,9 +10,6 @@ def writerep(given_hash, word):
             os.makedirs(path_linux)
     except FileExistsError:
         pass
-    
-    create_report = open(path + time.strftime('%S-%M-%H|%d-%m-%Y') + "_report-crackers.txt", "w")
-    write_report = create_report.writelines(f"{given_hash} : {word}")
 
     if os.name == 'nt':
         create_report = open(path_win + time.strftime('%S-%M-%H|%d-%m-%Y') + "_report-crackers.txt", "w")

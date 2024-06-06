@@ -39,20 +39,19 @@ def dict_attack():
             PathWL = input(cl.LIGHTYELLOW_EX + "\n[!] Enter the full path of the wordlist file: " + cl.RESET)
             print(cl.YELLOW + f"\n[!] Your bruteforce result is write in the ./result/ directory" + cl.RESET)
             print(cl.YELLOW + f"[-] Your hash is : {hashfile}" + cl.RESET)
-            opWL = open(PathWL,encoding=str('utf-8'))
+            opWL = open(PathWL)
             WL = opWL.readlines()
             m = hashlib.md5()
             count = 0
-            encodings = ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252']
 
             # Hash Cracking Loop
             for line in WL:
                 count += 1
                 m.update(line.encode())
                 pipe = m.hexdigest()
-                print(pipe)
+                print(f"{line} : {pipe}")
                 if pipe == hashfile:
-                    __report__(line)
+                    writerep(pipe, line)
                     print(cl.LIGHTGREEN_EX + f'[!] Hash password found ! {hashfile}:{line}' + cl.RESET)
                     result = pipe + " : " + hashfile
                     print(result)

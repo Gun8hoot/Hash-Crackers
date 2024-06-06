@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python
 
 # Import all python module
 try:
@@ -43,7 +43,6 @@ try:
             md5_encoderpy()
         elif choise == '4':
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(cl.LIGHTGREEN_EX + showbanner + cl.RESET)
             print(cl.LIGHTRED_EX + '\n[!] Goodbye' + cl.RESET)
             sys.exit(0)
         else:

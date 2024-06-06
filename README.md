@@ -1,6 +1,8 @@
-# Hash-Crackers
+# Hash-Cracker
 ---
-- **Hash-Crackers** is a kind of a toolbox to crack and encode MD5 hashing algorithm
+# FREE PALESTINE 🇵🇸
+
+- **Hash-Cracker** is a kind of a toolbox to crack and encode MD5 hashing algorithm
 - Cracking can take a lot of time (With my potato computer cracking the word "root" took 30 seconds but "print" took 28 minutes)
 - The script is not designed to be used in real-life situations. I created this script to challenge myself and learn more about python scripting and brute force attack.
 - This script should not be used for illegal purpose.
@@ -16,7 +18,7 @@ git clone https://github.com/Gun8hoot/Hash-Crackers.git
 ```bash
 cd ./Hash_Cracker
 ```
-- Launch the main.py file
+- Execute the main.py file
 ```bash
 python3 ./main.py
 #Or
@@ -24,29 +26,29 @@ chmod u+x ./main.py
 ./main.py
 ```
 - Select the module you want use by typing:
-1. for dictionary brute force
-2. for simple brute force attack
-3. to encode a word to MD5 hash
-4. to leave the script
+1. Dictionary brute force
+2. Simple brute force attack
+3. Encode a word to MD5 hash
+4. Leave the script
 ---
 #### Windows
 - Download the repo from github
-```batch
+```bash
 git clone https://github.com/Gun8hoot/Hash-Crackers.git
 ```
 - Go to the "hash-cracker" folder
 ```bash
 cd ./Hash_Cracker
 ```
-- Launch the main.py file
+- Execute the main.py file
 ```bash
 py -3 ./main.py
 ```
-- Select the module you want use by typing: 
-1. for dictionary brute force
-2. for simple brute force attack
-3. to encode a word to MD5 hash
-4. to leave the script  
-
+- Select the module you want use by typing:
+1. Dictionary brute force
+2. Simple brute force attack
+3. Encode a word to MD5 hash
+4. Leave the script  
+#
 > Write in:   
-[![Python logo](https://skillicons.dev/icons?i=python,markdown&theme=dark)](https://skillcons.dev/)
+[![S/O skillicons for the py & md icon](https://skillicons.dev/icons?i=python,markdown&theme=dark)](https://skillcons.dev/)

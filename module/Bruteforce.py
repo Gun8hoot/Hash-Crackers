@@ -4,26 +4,38 @@ except ValueError:
     pass
 import time, string, os, sys, itertools
 import hashlib
+from module.writereport import writerep
 
-banner = open("banner.txt", "r")
-showbanner = banner.read()
+# Banner vars
+if os.name == 'nt':
+    banner = open('banner_win.txt', "r")
+    showbanner = banner.read()
+else:
+    banner = open('banner_unix.txt', "r")
+    showbanner = banner.read()
+
+
 
 def brutef_attack():
     # Banner
     os.system('cls' if os.name == 'nt' else 'clear')
     print(cl.LIGHTGREEN_EX + showbanner + cl.RESET)
 
+    # Main script
     raw_hash = input("\n[!] Enter the hash to decode: ")
     result = bruteforcenow(raw_hash)
+
+
     if result:
         os.system("cls" if os.name == "nt" else "clear")
         print(cl.LIGHTGREEN_EX + showbanner + cl.RESET)
         print(cl.LIGHTRED_EX + f"[+] {raw_hash} : {result}" + cl.RESET)
-        quit()
+        writerep(raw_hash, result)
+        
     else:
         os.system("cls" if os.name == "nt" else "clear")
         print(cl.LIGHTRED_EX + "[!] ERROR" + cl.RESET)
-
+        
         
 def bruteforcenow(enc_hash):
     # vars

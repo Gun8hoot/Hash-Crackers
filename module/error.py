@@ -3,8 +3,12 @@ try:
 except ValueError:
     pass
 import os
-banner = open("banner.txt", "r")
-showbanner = banner.read()
+if os.name == 'nt':
+    banner = open('banner_win.txt', "r")
+    showbanner = banner.read()
+else:
+    banner = open('banner_unix.txt', "r")
+    showbanner = banner.read()
 
 
 def error_happen():

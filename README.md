@@ -16,7 +16,7 @@ git clone https://github.com/Gun8hoot/MD5-ToolBox.git
 ```
 - Go to the "hash-cracker" folder
 ```sh
-cd ./Hash_Cracker
+cd ./MD5-ToolBox
 ```
 - Execute the main.py file
 ```sh
@@ -38,7 +38,7 @@ git clone https://github.com/Gun8hoot/MD5-ToolBox.git
 ```
 - Go to the "hash-cracker" folder
 ```sh
-cd ./Hash_Cracker
+cd ./MD5-ToolBox
 ```
 - Execute the main.py file
 ```sh

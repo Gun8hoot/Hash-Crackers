@@ -11,15 +11,15 @@
 #### Linux
 ---
 - Download the repo from github
-```bash
+```sh
 git clone https://github.com/Gun8hoot/Hash-Crackers.git
 ```
 - Go to the "hash-cracker" folder
-```bash
+```sh
 cd ./Hash_Cracker
 ```
 - Execute the main.py file
-```bash
+```sh
 python3 ./main.py
 #Or
 chmod u+x ./main.py
@@ -33,15 +33,15 @@ chmod u+x ./main.py
 ---
 #### Windows
 - Download the repo from github
-```bash
+```sh
 git clone https://github.com/Gun8hoot/Hash-Crackers.git
 ```
 - Go to the "hash-cracker" folder
-```bash
+```sh
 cd ./Hash_Cracker
 ```
 - Execute the main.py file
-```bash
+```sh
 py -3 ./main.py
 ```
 - Select the module you want use by typing:

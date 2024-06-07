@@ -12,7 +12,7 @@
 ---
 - Download the repo from github
 ```sh
-git clone https://github.com/Gun8hoot/Hash-Crackers.git
+git clone https://github.com/Gun8hoot/MD5-ToolBox.git
 ```
 - Go to the "hash-cracker" folder
 ```sh
@@ -34,7 +34,7 @@ chmod u+x ./main.py
 #### Windows
 - Download the repo from github
 ```sh
-git clone https://github.com/Gun8hoot/Hash-Crackers.git
+git clone https://github.com/Gun8hoot/MD5-ToolBox.git
 ```
 - Go to the "hash-cracker" folder
 ```sh

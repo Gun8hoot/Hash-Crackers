@@ -49,6 +49,6 @@ py -3 ./main.py
 2. Simple brute force attack
 3. Encode a word to MD5 hash
 4. Leave the script  
-#
+#      
 > Write in:   
 [![S/O skillicons for the py & md icon](https://skillicons.dev/icons?i=python,markdown&theme=dark)](https://skillcons.dev/)

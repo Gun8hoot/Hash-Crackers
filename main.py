@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/bin/python
 
 # Import all python module
 try:
